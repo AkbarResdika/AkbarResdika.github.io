@@ -85,3 +85,23 @@ button:hover {
     background-color: #45a049; /* Warna lebih gelap saat hover */
 }
 
+/* Layout for mobile */
+@media (max-width: 767px) {
+    nav {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    #main {
+        margin-left: 0;
+    }
+
+    article {
+        min-width: 100%;
+    }
+
+    footer {
+        position: relative;
+    }
+}
