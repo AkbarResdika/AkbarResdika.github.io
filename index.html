@@ -12,27 +12,43 @@
         <h1>Berjadet (Berita Jepang Update)</h1>
     </header>
 
-    <nav>
+    <!-- Flexbox layout -->
+    <nav class="navbar">
         <a href="index.html">Beranda</a>
         <a href="tentang.html">Tentang</a>
         <a href="kontak.html">Kontak</a>
     </nav>
 
     <div class="container">
-        <article>
-            <h2><a href="trending.html">Anime Yang Sedang Trending</a></h2>
-            <p>Saat ini, salah satu anime yang paling trending adalah <strong>Attack on Titan</strong>. Anime ini sedang memasuki musim terakhir dan mendapatkan banyak perhatian dari penggemar di seluruh dunia karena alur ceritanya yang mendebarkan.</p>
-        </article>
+        <aside class="sidebar">
+            <!-- Sidebar untuk layout PC -->
+            <h3>Kategori</h3>
+            <ul>
+                <li><a href="#">Trending</a></li>
+                <li><a href="#">Rekomendasi</a></li>
+                <li><a href="#">Musim Depan</a></li>
+            </ul>
+        </aside>
 
-        <article>
-            <h2><a href="season-next.html">Anime Yang Akan Keluar Musim Depan</a></h2>
-            <p>Para penggemar anime sangat menantikan perilisan <strong>Demon Slayer: Swordsmith Village Arc</strong>, yang dijadwalkan akan keluar pada musim depan. Banyak penggemar tidak sabar menunggu petualangan baru Tanjiro dan teman-temannya.</p>
-        </article>
+        <section class="content">
+            <!-- Elemen block -->
+            <article>
+                <h2><a href="trending.html">Anime Yang Sedang Trending</a></h2>
+                <p>Saat ini, salah satu anime yang paling trending adalah <strong>Attack on Titan</strong>. Anime ini sedang memasuki musim terakhir dan mendapatkan banyak perhatian dari penggemar di seluruh dunia karena alur ceritanya yang mendebarkan.</p>
+            </article>
 
-        <article>
-            <h2><a href="recommended.html">7 Anime Terbaik 2024</a></h2>
-            <p>Jangan lupa untuk menonton <strong>My Hero Academia</strong>, yang juga terus mendapat perhatian besar. Pertarungan para pahlawan melawan kekuatan jahat menjadi semakin menarik di setiap episodenya.</p>
-        </article>
+            <!-- Elemen block -->
+            <article>
+                <h2><a href="season-next.html">Anime Yang Akan Keluar Musim Depan</a></h2>
+                <p>Para penggemar anime sangat menantikan perilisan <strong>Demon Slayer: Swordsmith Village Arc</strong>, yang dijadwalkan akan keluar pada musim depan. Banyak penggemar tidak sabar menunggu petualangan baru Tanjiro dan teman-temannya.</p>
+            </article>
+
+            <!-- Elemen block -->
+            <article>
+                <h2><a href="recommended.html">7 Anime Terbaik 2024</a></h2>
+                <p>Jangan lupa untuk menonton <strong>My Hero Academia</strong>, yang juga terus mendapat perhatian besar. Pertarungan para pahlawan melawan kekuatan jahat menjadi semakin menarik di setiap episodenya.</p>
+            </article>
+        </section>
     </div>
 
     <footer>
